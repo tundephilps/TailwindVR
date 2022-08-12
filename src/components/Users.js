@@ -13,7 +13,7 @@ import { BsFillCircleFill } from 'react-icons/bs';
 function Users() {
     return ( 
         <div
-        className='flex flex-col justify-center items-center space-x-5 space-y-2 lg:flex-row lg:space-y-0 lg:justify-start'
+        className='flex flex-col justify-center items-center space-x-5 space-y-2 lg:flex-row lg:space-y-0 lg:justify-center'
         data-aos='fade-down'
         data-aos-delay='900'
       >

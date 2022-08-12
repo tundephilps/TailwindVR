@@ -2,10 +2,10 @@ import React, { useEffect, useState } from 'react';
 
 // import components
 import Banner from './components/Banner';
+import Experience from './components/Experience';
 import Header from './components/Header';
 import NavMobile from './components/NavMobile';
-//import Experience from './components/Experience';
-//import Video from './components/Video';
+import Video from './components/Video';
 //import Headsets from './components/Headsets';
 //import Testimonial from './components/Testimonial';
 //import Explore from './components/Explore';
@@ -36,6 +36,10 @@ function App () {
       >
         <NavMobile setNavMobile={setNavMobile} />
       </div>
+            </div>
+            <div>
+              <Experience />
+              <Video />
             </div>
             </>
     );
