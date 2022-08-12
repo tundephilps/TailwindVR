@@ -4,6 +4,7 @@ import React from 'react';
 
 // import image
 import Img from '../assets/img/banner-img.png';
+import Users from './Users';
 
 const Banner = () => {
   return (
@@ -19,6 +20,7 @@ const Banner = () => {
                 <button className='btn'>Get it Now</button>
                 <a className='border-b-2 border-transparent hover:border-white transition ease-out' href='#'>Explore Device</a>
               </div>
+              <Users />
                 </div>
                 <div>
                     <img src={Img} alt="" />
