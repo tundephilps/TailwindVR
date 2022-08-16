@@ -9,6 +9,7 @@ import Headsets from './components/Headsets';
 import NavMobile from './components/NavMobile';
 import Testimonial from './components/Testimonial';
 import Video from './components/Video';
+//import { init } from "./utils/initHeadset"
 
 //import aos (animate on scroll)
 import Aos from 'aos';
@@ -26,7 +27,9 @@ function App () {
       Aos.init({
         duration: 2000,
         delay: 200,
-      });
+      }
+      
+      );
     });
 
     return (
@@ -49,6 +52,7 @@ function App () {
               <Video />
               <Headsets />
               <Testimonial />
+              
               <Explore />
             </div>
             </>
